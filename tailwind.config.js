@@ -1,6 +1,8 @@
 module.exports = {
   purge: [],
-  content: [],
+  content: [
+    "./index.html",
+  ],
   darkMode: false,
   theme: {
     extend: {
@@ -21,3 +23,4 @@ module.exports = {
   },
   plugins: [],
 }
+

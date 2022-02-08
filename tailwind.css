@@ -489,17 +489,17 @@ html, body {
 }
 
 .secondary-title {
-  font-size: 1.875rem;
+  font-size: 2.2rem;
   line-height: 2.25rem;
   font-weight: 700;
 }
 
 .secondary-title::before {
   content: "";
-  margin-bottom: 0.25rem;
+  margin-bottom: 1.5rem;
   display: block;
   height: 0.5rem;
-  width: 3rem;
+  width: full;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 0 / var(--tw-bg-opacity));
@@ -509,9 +509,10 @@ html, body {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 100%;
-  max-width: 48rem;
+  max-width: 100rem;
   --tw-text-opacity: 1;
-  color: rgb(145 145 164 / var(--tw-text-opacity));
+  font-size: large;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .badge {
