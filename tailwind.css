@@ -497,7 +497,7 @@ html, body {
 
 .secondary-title::before {
   content: "";
-  margin-top: -1.25rem;
+  margin-top: -10rem;
   display: block;
   height: 0.5rem;
   width: 100%;
@@ -511,7 +511,7 @@ html, body {
   line-height: 1.75rem;
   color: rgb(148 163 184 / var(--tw-text-opacity));
   margin-top: 1rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
   width: 100%;
   --tw-text-opacity: 1;
   /* color: rgb(255 255 255 / var(--tw-text-opacity)); */
@@ -554,4 +554,15 @@ html, body {
 
 .nav-dot:hover span {
   opacity: 1;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-2xl {
+  font-size: 1.3rem;
+  line-height: 3rem;
 }
