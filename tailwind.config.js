@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./index.html",
   ],
-  darkMode: false,
+  darkMode: media,
   theme: {
     extend: {
       colors: {
