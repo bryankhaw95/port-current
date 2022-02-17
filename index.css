@@ -74,8 +74,11 @@ scroll-margin-top: 100px;
 }
 
 .selected-circle {
-    @apply border-black bg-yellow-400;
-}
+    --tw-border-opacity: 1;
+    border-color: black;
+    --tw-bg-opacity: 1;
+    background-color: yellow;
+  }
 
 .nav-dot:hover span {
     opacity: 1;
