@@ -21,7 +21,6 @@ html, body {
 }
 
 .secondary-title {
-    @apply text-3xl font-bold -mb-10;
 
     margin-bottom: -1.25rem;
     font-size: 1.875rem;
